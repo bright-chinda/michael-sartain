@@ -7,6 +7,9 @@
     /* font-family: "Nunito", sans-serif; */
     /* font-family: "PT Sans", sans-serif; */
   }
+  html{
+    scroll-behavior: smooth;
+  }
 
   button{
     border: none;
@@ -660,15 +663,7 @@
 /* <!-- COUNTDOWN CONTAINER ENDS HERE -- */
 
 /* MODAL */
-.modal{
-  width: 700px;
-}
-/* .modal .modal-dialog{
-  width: 700px;
-} */
 .modal .modal-content{
-  /* background-color: red; */
-  /* width: 700px; */
   border-radius: 20px;
 }
 .modal-header{
