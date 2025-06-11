@@ -16,9 +16,14 @@
           <div class="modal-header">
             <h1>Get Mentored Directly by Michael</h1>
             <p>Choose how you want to get started private mentorship or community access</p>
+            <div class="close-modal-button">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
           </div>
           <div class="modal-body">
-            <h2>Where would you prefer to connect?I ADVICE YOU GO FOR OPTION 1</h2>
+            <div style="display: flex; justify-content: center;">
+              <h2>Where would you prefer to connect?I ADVICE YOU GO FOR OPTION 1</h2>
+            </div>
 
             <div class="modal-content-container">
               <div class="option-one">
@@ -84,9 +89,11 @@
           <a href="#faqq">FAQ</a>
         </nav>
 
-        <button class="join-now-button">
-            Join Now
-        </button>
+        <button type="button" class="btn join-now-button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Join Now</button>
+
+        <!-- <button class="join-now-button">
+           
+        </button> -->
 
         <!-- <button class="menu-btn">
           <svg xmlns="http://www.w3.org/2000/svg" class="open-menu" fill="white" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
@@ -109,7 +116,7 @@
             <button type="button" class="btn carousel-btn primary-btn-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">Discover the Secret!</button>
           </div>
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <div class="carousel-content">
               <h2>Build a High-Status Social Circle in Just 30 Days</h2>
               <p>
@@ -117,7 +124,7 @@
               </p>
               <button type="button" class="btn carousel-btn primary-btn-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">Join the Men of Action Now</button>
             </div>
-          </div>
+          </div> -->
           <div class="carousel-item">
             <div class="carousel-content">
               <h2>Make Money Daily — Even While You Sleep</h2>
@@ -701,7 +708,8 @@
       </div>
 
       <div class="system-btn">
-          <button class="primary-btn-hover">Let’s Start With Step 1  Fixing Your Finances</button>
+        <button type="button" class="btn carousel-btn primary-btn-hover" data-bs-toggle="modal" data-bs-target="#exampleModal">Let’s Start With Step 1  Fixing Your Finances</button>
+        <!-- <button class="primary-btn-hover">Let’s Start With Step 1  Fixing Your Finances</button> -->
       </div>
     </div>
     <!-- HOW IT WORKS ENDS HERE -->

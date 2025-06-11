@@ -34,14 +34,21 @@
   .logo .img{
     width: 100%;
   }
-  .join-now-button{
+  .btn.join-now-button{
     font-weight: 500;
     font-size: 18px;
     background-color: #0087B5;
     color: var(--body-color);
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 6px;
+    box-shadow: 0 0 12px rgba(102, 204, 255, 0.6);
+    transition: 0.3s;
   }
+   .btn.join-now-button:hover{
+    background-color: #0087B5;
+    color: white;
+    opacity: 0.8;
+   }
   nav{
     display: flex;
     gap: 20px;
@@ -671,6 +678,7 @@
   flex-direction: column;
   align-items: center;
   padding: 30px 20px !important; 
+  position: relative;
 }
 .modal-header h1{
   font-size: 17px;
@@ -682,6 +690,17 @@
   text-align: center;
   width: 500px;
   margin-bottom: 0;
+}
+.close-modal-button{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.close-modal-button .btn-close{
+  color: red;
+  width: 10px;
+  height: 10px;
+  font-size: 13px;
 }
 .modal-body h2{
   font-size: 17px;
@@ -698,8 +717,8 @@
 .modal-content .modal-body h2{
   margin-bottom: 30px;
   font-size: 13px;
-  font-weight: 400;
-  /* width: 400px; */
+  font-weight: 500;
+  width: 245px;
 }
 .option-one-content{
   display: flex;
@@ -862,7 +881,7 @@
   }
   .demo-video-container button{
     font-size: 13px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -877,8 +896,8 @@
     text-align: center;
   }
    .hero-section .demo-video-content{
-    width: 40% ;
-    height: 200px;
+    width: 100% ;
+    height: 600px;
     /* background-color: red; */
     padding: 10px 10px;
     border-radius: 5px;
@@ -891,9 +910,25 @@
 }
 
 @media screen and (max-width:600px) {
+    .hero-section video {
+      height: 90vh;
+      object-fit: cover;
+    }
+   .hero-section .carousel{
+    position: absolute;
+    top: 40% !important;
+    left: 3%;
+    color: white;
+    z-index: 2;
+  }
   .btn.carousel-btn{
     font-size: 13px;
     padding: 10px 10px;
+  }
+  .close-modal-button{
+    position: absolute;
+    top: 10px;
+    right: 20px;
   }
   .Testimonials-container h2{
     font-size: 25px;
