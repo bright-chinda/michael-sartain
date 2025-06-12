@@ -854,12 +854,12 @@
     z-index: 2;
   }
   .carousel-item h2{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 30px;
   }
   .carousel-item p{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
   }
   .testimony-section-two h3{
@@ -872,7 +872,7 @@
     width: 100% !important;
   }
   .carousel-btn{
-    font-size: 15px;
+    font-size: 17px;
   }
   .demo-video-container{
     height: 100vh;
@@ -963,8 +963,8 @@
     z-index: 2;
   }
   .btn.carousel-btn{
-    font-size: 13px;
-    padding: 10px 10px;
+    /* font-size: 13px;
+    padding: 10px 10px; */
   }
   .close-modal-button{
     position: absolute;
