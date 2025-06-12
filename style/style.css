@@ -545,6 +545,9 @@
   align-items: start;
   margin-bottom: 10px;
 }
+.green-tick-div p{
+  margin-bottom: 0;
+}
 .green-tick-div svg{
   width: 25px;
   height: 25px;
@@ -641,6 +644,7 @@
 }
 .countdown-body h2{
   font-weight: 600;
+  text-align: center;
 }
 .countdown-body p{
   font-weight: 500;
@@ -650,6 +654,7 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  padding: 10px 20px;
   margin-bottom: 20px;
 }
 .countdown-timer{
@@ -832,22 +837,10 @@
     z-index: 999;
     transition: all 300ms ease-in-out;
   }
-  /* .menu-btn{
-    display: flex;
-    background: none;
-    z-index: 9999;
-  }
-  nav.active{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-  } */
-    .hero-section video{
+  .hero-section video{
     height: 100vh;
     object-fit: cover;
-    }
+  }
 
   .hero-section .carousel-item{
     width: 100%;
@@ -895,9 +888,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .demo-video-content video{
+  /* .demo-video-content video{
     height: 100%;
-  }
+  } */
   .testimony-section-two p{
     width: 100%;
   }
@@ -912,12 +905,18 @@
     border-radius: 5px;
   }
    .demo-video-content video{
-    /* height: 200px; */
+    height: 70vh;
     width: 100%;
     object-fit: cover;
   }
-  .about-michael-container{
+  /* .about-michael-container{
     margin-top: 270px;
+  } */
+  .countdown-body p{
+    width: 100% !important;
+  }
+  .countdown-body small{
+    text-align: center;
   }
 }
 
@@ -929,7 +928,12 @@
 
 @media screen and (max-width:600px) {
   .demo-video-content video{
-    height: 100vh !important;
+      height: 70vh !important;
+  }
+  .footer-bottom{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
   .demo-video-body button{
     width: 100%;
@@ -970,18 +974,6 @@
   .Testimonials-container h2{
     font-size: 25px;
   }
-   /* .hero-section .demo-video-content{
-    width: 40% !important;
-    height: 100px !important;
-    background-color: red;
-    padding: 10px 10px;
-    border-radius: 5px;
-  }
-   .demo-video-content video{
-    height: 100% !important;
-    width: 100% !important;
-    object-fit: cover !important;
-  } */
   .Testimony-body{
     flex-direction: column;
   }
@@ -1012,10 +1004,10 @@
   .system-container{
     padding: 60px 20px;
   }
-  .about-michael-container{
+  /* .about-michael-container{
     padding: 20px 20px;
     margin-top: 150px;
-  }
+  } */
   .believing-container{
     padding: 30px 20px;
   }
@@ -1036,8 +1028,13 @@
     width: 100%;
   }
   .green-tick-div svg{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    /* display: none; */
+  }
+  .green-tick-div{
+    font-size: 14px;
+    font-weight: 500;
   }
   .learn-how-container h2{
     font-size: 20px;
