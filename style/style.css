@@ -889,7 +889,7 @@
     height: 100vh;
   }
   .demo-video-container button{
-    font-size: 13px;
+    font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
     margin-top: 20px;
@@ -905,7 +905,7 @@
     text-align: center;
   }
    .hero-section .demo-video-content{
-    width: 100% ;
+    /* width: 300px; */
     height: 550px;
     /* background-color: red; */
     padding: 10px 10px;
@@ -919,6 +919,12 @@
 }
 
 @media screen and (max-width:600px) {
+  .demo-video-body button{
+    width: 100%;
+  }
+  .demo-video-container button p{
+    width: 100%;
+  }
     .testimonial-section-four{
       flex-direction: column;
     }
