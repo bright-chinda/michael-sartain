@@ -905,20 +905,32 @@
     text-align: center;
   }
    .hero-section .demo-video-content{
-    /* width: 300px; */
-    height: 550px;
+    width: 300px;
+    height: 100%;
     /* background-color: red; */
     padding: 10px 10px;
     border-radius: 5px;
   }
    .demo-video-content video{
-    height: 100%;
+    /* height: 200px; */
     width: 100%;
     object-fit: cover;
+  }
+  .about-michael-container{
+    margin-top: 270px;
+  }
+}
+
+@media screen and (max-width:698px) {
+ .testimonial-section-three-content{
+    width: 100%;
   }
 }
 
 @media screen and (max-width:600px) {
+  .demo-video-content video{
+    height: 100vh !important;
+  }
   .demo-video-body button{
     width: 100%;
   }
@@ -1002,6 +1014,7 @@
   }
   .about-michael-container{
     padding: 20px 20px;
+    margin-top: 150px;
   }
   .believing-container{
     padding: 30px 20px;
@@ -1029,9 +1042,7 @@
   .learn-how-container h2{
     font-size: 20px;
   }
-  .testimonial-section-three-content{
-    width: 100%;
-  }
+
   .modal-header p{
     width: 100%;
   }
