@@ -218,7 +218,7 @@
     margin-top: 40px;
   }
   .about-michael-image .img{
-    width: 100%;
+    width: 80%;
   }
   .about-michael-content-one{
     margin-top: 50px;
@@ -542,15 +542,16 @@
 }
 .green-tick-div{
   display: flex;
-  align-items: start;
+  align-items: center;
+  gap: 5px;
   margin-bottom: 10px;
 }
 .green-tick-div p{
   margin-bottom: 0;
 }
-.green-tick-div svg{
-  width: 25px;
-  height: 25px;
+.green-tick-div .img{
+  width: 17px;
+  height: 17px;
 }
 .how-it-works-content-text small{
   font-weight: 600;
@@ -639,7 +640,7 @@
   align-items: center;
   background-color: #F3F3F2;
   padding: 60px 40px;
-  border-radius: 12px;
+  border-radius: 20px;
   box-shadow: 0 0 3px rgb(0 0 0 / 20%);
 }
 .countdown-body h2{
@@ -737,7 +738,12 @@
 .option-one-content{
   display: flex;
   align-items: center;
+  gap: 10px;
   margin-bottom: 15px;
+}
+.option-one-content .img{
+  width: 17px;
+  height: 17px;
 }
 .option-one{
   display: flex;
@@ -918,11 +924,17 @@
   .countdown-body small{
     text-align: center;
   }
+  .about-michael-image .img{
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width:698px) {
  .testimonial-section-three-content{
     width: 100%;
+  }
+  .about-michael-image{
+    margin-top: 20px !important;
   }
 }
 
@@ -949,7 +961,7 @@
     }
     .green-tick-div{
       align-items: center;
-      font-size: 12px;
+      /* font-size: 12px; */
     }
     .hero-section video {
       height: 90vh;
@@ -988,7 +1000,7 @@
     z-index: 2;
   }
   .carousel-item h2{
-    font-size: 17px;
+    /* font-size: 17px; */
     font-weight: 700;
     line-height: 30px;
   }
