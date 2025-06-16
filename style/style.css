@@ -214,11 +214,13 @@
     font-weight: 500;
   }
   .about-michael-image{
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin-top: 40px;
   }
   .about-michael-image .img{
-    width: 80%;
+    width: 90%;
   }
   .about-michael-content-one{
     margin-top: 50px;
